@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300&family=Roboto:wght@100;300;400;500;700&display=swap');
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Barlow', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+/* --------------components layout--------------------- */
+.components{
+   display: flex;
+}
+/* ------------------------aside section codes------------------- */
+.aside{
+  width:250px;
+  height:110vh;
+  background-color: #040440;
+  color:bisque;
+  padding:20px;
+  overflow: hidden;
+}
+.logo{
+  padding-top:20px;
+  display:flex;
+  gap:10px;
+  font-size: 20px;
+}
+.btn{
+  padding-top:30px;
+  font-size: 14px;
+  border-radius: 8px;
+  margin:20px 0;
+  padding:7px;
+  font-family: 'Barlow', sans-serif;
+  background-color: #2D2D69;
+}
+.btn h2{
+  font-size: 16px;
+  font-family: 'Barlow', sans-serif;
+  font-weight:100;
+}
+.btn1 h2{
+  font-size: 16px;
+  font-family: 'Barlow', sans-serif;
+  font-weight:100;
+}
+
+.btn1{
+  margin:20px 0;
+  padding:7px;
+  display:flex;
+  align-items: center;
+  /* border:.5px solid white; */
+  border-radius: 8px;
+  justify-content: space-between;
+
+}
+.btn1:hover{
+  background-color: #2D2D69;
+}
+.hbtn{
+  display: flex;
+  gap:5px;
+}
+/* --------------profile code-------------- */
+.profile{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:10px;
+  /* border:.5px solid white; */
+  border-radius: 8px;
+  margin-top: 150px;
+  background-color:#2D2D69 ;
+
+}
+.img{
+  width:60px;
+  height:60px;
+ 
+}
+img{
+  width:100%;
+  height:100%;
+  object-fit:fill;
+  border-radius: 50%;
+}
+.up{
+  display: flex;
+   gap:5px;
+   align-items: center;
+}
+
+/* ------------------topsec code---------------------- */
+.topsec{
+  width:100%;
+  background-color:rgb(222, 224, 231) ;
+}
+
+.top{
+  margin: 5px 45px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border:.5px solid black; */
+}
+input{
+  width:150px;
+  height:30px;
+  padding:6px 5px 5px 22px ;
+  border: none;
+  background-color:white ;
+  border-radius: 5px;
+  outline: none;
+}
+.search{
+  position:relative;
+}
+.search  span{
+  position:absolute;
+  right: 155px;
+    bottom: 7px;
+}
+/* --------------------cards code---------------------- */
+.cards{
+  display:flex;
+  margin: 6px 20px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+/* ----------------------card code -------------------- */
+.card{
+  width:210px;
+  height:100px;
+  background-color: white;
+  padding:10px;
+  display: flex;
+  gap:15px;
+  border-radius: 8px;
+}
+.icon{
+  width:100px;
+  height:100px;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.icon h1{
+  font-size: 50px;
+}
+.info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info h3{
+  font-size: 10px;
+}
+.gr{
+  color:limegreen;
+}
+.er{
+  color:rgb(92, 91, 91);
+}
+.volet{
+  background-color: #E7DBFF;
+  color:#A516FF;
+}
+.blue{
+  background-color: #CCF2FF;
+  color:#0751BE;
+}
+.red{
+  background-color: #FFAED7;
+  color:#D90F15;
+}
+.green{
+  background-color: #DEFFEC;
+  color:#18AA36
+}
+.redarrow{
+  color:#D90F15;
+}
+
+/* ----------------overview--------------------- */
+
+.overview{
+  margin: 15px 45px;
+  background-color: white;
+  border-radius: 5px;
+}
+.over {
+   display:flex;
+   justify-content:space-between;
+   align-items: center;
+   padding:5px 15px;
+}
+.over1 h3{
+  font-weight:bold;
+}
+.over1 h6{
+   color:gray;
+}
+.span span{
+   font-size: 14px;
+   padding: 2px 5px;
+   
+}
+.span:hover{
+  background-color: #DEE0E7;
+  border-radius: 5px;
+}
+/* -----------------Coustomer-------------------- */
+.chart{
+  display:flex;
+}
+.barchart{
+  width:650px;
+  height:250px;
+}
+.pieChart{
+  margin:15px;
+  width:300px;
+  height:300px;
+  background-color: white;
+  border-radius: 5px;
+}
+.pie{
+  padding: 5px 10px;
+}
+.pie h6{
+  color:grey
+}
+
+/* ----------------sell section code-------------------- */
+
+.sellcont{
+  margin: 0px 45px;
+  background-color: white;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:5px 10px;
+}
+.ser{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sell2{
+  margin-top:0;
+}
+.sell2 h3{
+  color:gray;
+}
+.ser1{
+  margin-right:5px;
+}
+span{
+  color:gray;
+}
+.ser1 input{
+  background-color: #DEE0E7;
+}
+.sellspan {
+  display:flex;
+  gap:60px;
+}
+.productlist{
+  display:flex;
+  align-items: center;
+  gap:10px;
+}
+.img1{
+  width:60px;
+  height:60px;
+ 
+}
+img{
+  width:100%;
+  height:100%;
+  object-fit:fill;
+  border-radius: 20%;
+}
+/* -------------------media  query----------------- */
+
+@media (max-width: 767px){
+  .aside{
+    display:none;
+  }
+  .components{
+    display: flex;
+    flex-direction: column;
+ }
+ .card{
+  margin:10px;
+ }
+ .chart {
+  display: flex;
+  flex-direction: column;
+}
+}
