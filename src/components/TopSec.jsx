@@ -1,8 +1,7 @@
 import React from 'react'
-import { FaSistrix,FaCommentDollar,FaArrowUp,
-    FaFilePrescription , FaArrowDown} from "react-icons/fa6";
+import { FaSistrix,FaCommentDollar,FaArrowUp, FaArrowDown} from "react-icons/fa6";
 import Overview from './Overview';
-import Coustomer from './coustomer';
+import Coustomer from './Coustomer';
 import Sell from "./Sell";
 
 export const TopSec = () => {
