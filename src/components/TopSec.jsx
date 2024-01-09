@@ -9,7 +9,7 @@ export const TopSec = () => {
    <div className='topsec'>
     <div className='top'>
         <div className="name">
-            <h1>Hello Shahrukh 👋</h1>
+            <h1>Hello Meraj 👋</h1>
         </div>
         <div className="search">
             <input type="text" placeholder='search'/>
